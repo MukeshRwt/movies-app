@@ -1,0 +1,14 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+.active {
+  color: var(--bs-purple) !important;
+}
+* {
+  text-decoration: none !important;
+}
+
+.movie-card-title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
